@@ -18,23 +18,21 @@ requirements:
   build:
     - python
     - setuptools
-
   run:
     - python
+    - setuptools
 
 test:
   imports:
     - brewer2mpl
     - brewer2mpl.wesanderson
 
-  requires:
-    - setuptools
-
 about:
   home: https://github.com/jiffyclub/brewer2mpl/wiki
   license: MIT
-  summary: 'Connect colorbrewer2.org color maps to Python and matplotlib'
+  summary: Connect colorbrewer2.org color maps to Python and matplotlib
 
 extra:
   recipe-maintainers:
     - pmlandwehr
+    - ocefpaf
