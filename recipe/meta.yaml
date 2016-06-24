@@ -7,11 +7,11 @@ package:
 source:
   fn: brewer2mpl-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/b/brewer2mpl/brewer2mpl-{{ version }}.tar.gz
-  md5: f8cd1fbb9f5d836a3a095b1ca9d58fc2
+  sha256: 2e094d1bea766885aa77e4ed40cc718af6458a1d5e08cc87a5f453c6095b1b1c
 
 build:
 
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
